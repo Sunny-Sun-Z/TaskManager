@@ -1,0 +1,11 @@
+# Task Manager - Python Requirements
+# This project only uses built-in Python modules, so no external dependencies are required.
+
+# Built-in modules used:
+# - json: For data serialization
+# - os: For file system operations
+# - datetime: For timestamp handling
+# - tempfile: For testing (optional)
+
+# Python version requirement
+# This project works with Python 3.6+
