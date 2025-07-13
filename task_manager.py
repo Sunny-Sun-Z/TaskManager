@@ -30,7 +30,7 @@ class Task:
             "completed_at": self.completed_at,
         }
 
-    @classmethod
+    @classmethod  # cls kinda this class `constructor`
     def from_dict(cls, data):
         """Create a task from dictionary data"""
         task = cls(data["title"], data["description"], data["priority"])
